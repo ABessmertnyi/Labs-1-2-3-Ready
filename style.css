@@ -1,0 +1,53 @@
+header
+{
+  background-color: #02ff09;
+}
+.headings
+{
+  padding-left: 2%;
+}
+html
+{
+  background-color: coral;
+}
+body
+{
+  background-color: royalblue;
+}
+.button
+{
+  border: 3px solid red;
+}
+.block
+{
+  margin-left: 70px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 255) 200%);
+  box-shadow: 5px 5px 10px rgba(120, 120, 120, 0.7);
+  word-wrap: break-word;
+}
+
+.block:hover
+{
+  text-shadow: blue 1px 1px 3px;
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 10px rgba(120, 120, 120, 0.7);
+}
+
+.comment-item:nth-child(2n) .block
+{
+  background-color: #fa0505;
+}
+.comment-item:nth-child(2n + 1) .block
+{
+  background-color: #02ff09;
+}
+
+footer
+{
+  margin-left: 5px;
+}
+
+
